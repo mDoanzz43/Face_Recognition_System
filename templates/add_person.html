@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Person</title>
+    <link rel="stylesheet" href="D:/STUDY/Face_Recognition_System/static/css/styles.css">
+</head>
+<body>
+    <h1>Add New Person</h1>
+    <a href="/">⬅ Return</a>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flashed-messages">
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    
+    <form method="POST" enctype="multipart/form-data">
+        <label for="name">Person's Name:</label>
+        <input type="text" name="name" id="name" required>
+        <label for="images">Select Images:</label>
+        <input type="file" name="images" id="images" multiple required>
+        <button type="submit">Add Person</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>History of Attendance</title>
+    <link rel="stylesheet" href="D:/STUDY/Face_Recognition_System/static/css/styles.css">
+</head>
+<body>
+    <h1>History of Attendance</h1>
+    <a href="/">⬅ Return</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for record in records %}
+            <tr>
+                <td>{{ record[1] }}</td> <!-- name -->
+                <td>{{ record[2] }}</td> <!-- timestamp -->
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <h2>List of People Who Have Attended:</h2>
+    <ul>
+        {% for person in people %}
+        <li>{{ person }} - <a href="{{ url_for('delete_person', name=person) }}">🗑 Delete</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
