@@ -14,7 +14,7 @@ Cài đặt cmake và dlib để sử dụng face_recognition
 
 # Setup 
 ## 1. Clone repo
-''' git clone https://github.com/mDoanzz43/Face_Recognition_System.git '''
+``` bash  git clone https://github.com/mDoanzz43/Face_Recognition_System.git '''
 
 ## 2. Setup virtual environment 
 '''
