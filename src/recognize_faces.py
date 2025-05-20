@@ -2,7 +2,7 @@ import cv2 as cv
 import face_recognition
 import numpy as np
 
-def recognize_face(frame, know_embeddings, tolerance = 0.6):
+def recognize_face(frame, know_embeddings, tolerance = 0.5):
     '''
     Read frame from my webcame
     -> Resize image become smaller -> get increase speed of calculate 
