@@ -2,15 +2,15 @@
 Hệ thống sử dụng webcam để nhận diện khuôn mặt theo thời gian thực, ghi lại thông tin điểm danh (tên người, thời gian) vào cơ sở dữ liệu SQLite, và cung cấp giao diện web để quản lý và theo dõi dữ liệu
 
 # Tính năng:
-Nhận diện khuôn mặt theo thời gian thực qua webcam
-Lưu thông tin điểm danh vào cơ sở dữ liệu SQLite
-Giao diện web để xem lịch sử điểm danh, thêm/xóa người
-Công cụ: Flask, OpenCV, face_recognition, SQLite, HTML/CSS
+- Nhận diện khuôn mặt theo thời gian thực qua webcam
+- Lưu thông tin điểm danh vào cơ sở dữ liệu SQLite
+- Giao diện web để xem lịch sử điểm danh, thêm/xóa người
+- Công cụ: Flask, OpenCV, face_recognition, SQLite, HTML/CSS
 
 # Requirement
-Python 3.8+
-Thư viện: flask, opencv-python, face_recognition, numpy, pillow
-Cài đặt cmake và dlib để sử dụng face_recognition
+- Python 3.8+
+- Thư viện: flask, opencv-python, face_recognition, numpy, pillow
+- Cài đặt cmake và dlib để sử dụng face_recognition
 
 # Setup 
 ## 1. Clone repo
