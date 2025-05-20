@@ -38,6 +38,5 @@ python app.py
 Thêm ảnh vào data/images/[tên_người]/ để huấn luyện.
 Truy cập giao diện web để xem điểm danh, thêm/xóa người.
 
-## Fun Project
 ## Enjoy and chill~
 
