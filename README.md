@@ -12,7 +12,7 @@ Hệ thống sử dụng webcam để nhận diện khuôn mặt theo thời gia
 - Thư viện: flask, opencv-python, face_recognition, numpy, pillow
 - Cài đặt cmake và dlib để sử dụng face_recognition
 
-# Setup 
+# Setup chương trình 
 ## 1. Clone repo
 ``` bash  git clone https://github.com/mDoanzz43/Face_Recognition_System.git ```
 
@@ -32,7 +32,7 @@ pip install -r requirement.txt
 python app.py
 ```
 
-## 5. Truy cập địa chỉ localhost
+## 5. Truy cập địa chỉ localhost được hiển thị khi chạy file app.py
 
 # Sử dụng
 Thêm ảnh vào data/images/[tên_người]/ để huấn luyện.
