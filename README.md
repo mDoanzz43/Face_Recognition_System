@@ -38,5 +38,9 @@ python app.py
 Thêm ảnh vào data/images/[tên_người]/ để huấn luyện.
 Truy cập giao diện web để xem điểm danh, thêm/xóa người.
 
+# Kết quả:
+![image](https://github.com/user-attachments/assets/c983f020-692e-4a44-a68c-9749b94565cf)
+
+# Tìm hiểu chi tiết bằng cách xem file report.pdf 
 ## Enjoy and chill~
 
