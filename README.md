@@ -1,4 +1,4 @@
-#🤖 Mô tả dự án: Hệ thống Điểm danh bằng Nhận diện Khuôn mặt
+# 🤖 Mô tả dự án: Hệ thống Điểm danh bằng Nhận diện Khuôn mặt
 Hệ thống sử dụng webcam để nhận diện khuôn mặt theo thời gian thực, ghi lại thông tin điểm danh (tên người, thời gian) vào cơ sở dữ liệu SQLite, và cung cấp giao diện web để quản lý và theo dõi dữ liệu
 
 # ✨Tính năng:
