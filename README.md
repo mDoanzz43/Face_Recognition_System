@@ -34,7 +34,7 @@ python app.py
 
 ## 5. Truy cập địa chỉ localhost được hiển thị khi chạy file app.py
 
-# Sử dụng
+# 🧑‍💼Sử dụng
 Thêm ảnh vào data/images/[tên_người]/ để huấn luyện.
 Truy cập giao diện web để xem điểm danh, thêm/xóa người.
 
